@@ -1,0 +1,22 @@
+To find the sum of the integers from 1 to N, d times
+ie,if d=2 then we need to calculate sum((sum(n)))
+sum from 1 to N, and each subsequent time n is the result of the previous operation.
+1. Start
+2. read no of test case:t
+3. for i <t:
+    3.1 read d(sum applied d times),n:
+    3.2 while(d>0):
+          n=sum(n)
+          d=d-1
+4.Stop
+
+Function sum()
+Input:n to find sum from 1 to n
+Output:Sum of n integers
+1.Start
+2.initialise sum s
+3.for i from 1 to n:
+    sum+=i
+4.return sum
+5.Stop
+

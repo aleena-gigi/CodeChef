@@ -1,0 +1,14 @@
+While purchasing certain items, a discount of 10% is offered if the quantity purchased is more than 1000.
+If the quantity and price per item are input,calculate total expense
+
+INPUT:quantity: q,price per item: p
+OUTPUT:Total expense: tot
+1.Start
+2.read no.of test case:t
+3 for i from 0 to t:
+     3.1 read quantity,price
+     3.2 tot= q*p
+     3.3 if q>100 then
+            tot-=tot/10
+     3.4 print tot
+4.STOP
