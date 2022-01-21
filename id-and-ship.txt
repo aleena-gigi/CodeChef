@@ -1,0 +1,13 @@
+Read no of test cases:t
+while t!=0 do
+ read input character:ch
+ if ch = b or B
+    display "BattleShip"
+ if ch= c or C
+    display "Cruiser"
+  if ch = d or d
+    display "Destroyer"
+ if ch= f or f
+    display "Frigate"
+ t=t-1
+END(while not equal to t)
